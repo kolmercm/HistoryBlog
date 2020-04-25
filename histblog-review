@@ -1,0 +1,36 @@
+HistoryBlog Review:
+
+Suggestions:
+- could caption your photos
+  ex:  <figure>
+          <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+          <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        </figure> 
+  https://www.w3schools.com/TAGS/tag_figcaption.asp
+
+- try to break up some of the longer paragraphs into smaller paragraphs, if possible
+
+- let me know if you have any questions about javascript
+
+- (optional) you could center your photos, but I think they look fine as they are as well.
+
+- use an icon for your "follow me on twitter" section
+  - move the "follow me on twitter" section somewhere more visible
+
+
+What I did:
+- closed <head> tag before starting the <body> tag.
+- added a couple <meta> tags for accessibilty
+- moved the twitter <script> into the <head> tag so its loaded with page
+- changed padding of card from 20px to 3%
+- added media query to adjust the width of the cards on larger screens
+- changed font-family of paragraph text to 'Helvetica', sans-serif,
+  - added 'paragraph' class to paragraph text. see stylesheet for details
+- changed * { box-sizing: border-box } to "inherit", and set: html { box-sizing: border-box } instead.
+- commented out the broken twitter <script> (and left url to documentation)
+
+javascript:
+- added 'example.js' to show a few examples
+- used Fetch to implement an example random facts request, and update the page
+  - with a button to get another fact
+- implemented an example click event listener

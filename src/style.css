@@ -3,8 +3,7 @@
 html { box-sizing: border-box; }
 
 body{
-    /* font-family: Arial; */
-    font-family: 'Helvetica', sans-serif;
+    font-family: Arial;
     margin:0;
     padding:20px;
     background-color: #FAEBD7;
@@ -17,6 +16,7 @@ body{
 
 .paragraph {
     line-height: 1.33;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .row:after{
@@ -58,6 +58,10 @@ h2{
     margin-top: 20px; 
 }
 
+.left-column .card {
+    padding: 3%;
+}
+
 .car img{
     width: 100%;
 }
@@ -77,5 +81,13 @@ footer{
     .left-column, .right-column{
         width:100%;
         padding: 0px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .left-column .card {
+        margin-left: 15%;
+        margin-right: 5%;
+        padding: 4%;
     }
 }

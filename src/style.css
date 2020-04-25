@@ -1,12 +1,24 @@
+
+
+html { box-sizing: border-box; }
+
 body{
-    font-family: Arial;
+    /* font-family: Arial; */
+    font-family: 'Helvetica', sans-serif;
     margin:0;
     padding:20px;
     background-color: #FAEBD7;
+    line-height: 1.2;
 }
-*{
-    box-sizing: border-box;
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
+
+.paragraph {
+    line-height: 1.33;
+}
+
 .row:after{
     content: '';
     display: table;
